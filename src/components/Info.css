@@ -1,0 +1,46 @@
+.info {
+    background-color: #000;
+    height: 90vh;
+}
+.info .container {
+    max-width: 1140px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .left {
+    background-color: #000;
+    color: #f8f8f8;
+    margin: auto;
+    padding: 1rem;
+}
+
+.info .right {
+    background-color: #000;
+}
+
+.img-container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.info img {
+    width: 400px;
+    border: none;
+} 
+
+@media screen and (max-width:940px) {
+    .info .container {
+        flex-direction: column;
+    }
+
+    .info .right {
+        margin: 3rem 0;
+    }
+}
